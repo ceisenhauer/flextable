@@ -67,7 +67,8 @@ format_fun_defaultnum <-
       prefix,
       format(x, trim = TRUE, scientific = FALSE,
         big.mark = big.mark,
-        decimal.mark = decimal.mark
+        decimal.mark = decimal.mark,
+        digits = digits
       ),
       suffix
     )
